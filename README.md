@@ -1,6 +1,18 @@
 Machine Learning Notebooks, 3rd edition
 =================================
 
+# Note: this repo differs from the upstream in that I've added raw Python versions of the sample code, for people who would rather edit code in Emacs and run things on the command-line, than use Jupyter or Colab, etc. The Python code was extracted from the Notebooks using the
+command:
+
+```
+jupyter nbconvert --to python *.ipynb --output-dir=python-src
+```
+
+And then (in theory) hand-edited to taste. Note that as of 02-26-2023 the "edited by hand" part is in progress. No promises on when that
+will be done. It might never be, for all I know.
+
+=================================
+
 This project aims at teaching you the fundamentals of Machine Learning in
 python. It contains the example code and solutions to the exercises in the third edition of my O'Reilly book [Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow (3rd edition)](https://homl.info/er3):
 
