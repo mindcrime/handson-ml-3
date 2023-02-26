@@ -1,7 +1,9 @@
 Machine Learning Notebooks, 3rd edition
 =================================
 
-# Note: this repo differs from the upstream in that I've added raw Python versions of the sample code, for people who would rather edit code in Emacs and run things on the command-line, than use Jupyter or Colab, etc. The Python code was extracted from the Notebooks using the
+# Note
+
+This repo differs from the upstream in that I've added raw Python versions of the sample code, for people who would rather edit code in Emacs and run things on the command-line, than use Jupyter or Colab, etc. The Python code was extracted from the Notebooks using the
 command:
 
 ```
